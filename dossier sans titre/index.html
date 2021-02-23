@@ -15,99 +15,68 @@
 </head>
 
 <body>
-    <header>
-        <nav class="navbar navbar-expand-lg navbar-light border-bottom text-uppercase font-weight-bold">
-            <a href="home" class="navbar-brand order-2 order-lg-1 m-auto m-lg-0">
-                <img src="media/logo.png" alt="Logo's Hero">
-            </a>
-            <button class="navbar-toggler order-1 order-lg-2 border-0" type="button" data-toggle="collapse"
-                data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <i class="fas fa-bars"></i>
-            </button>
-            <div class="collapse navbar-collapse order-0 order-lg-2 justify-content-lg-center" id="navbarNav">
-                <ul class="navbar-nav">
-                    <li class="nav-item px-3"><a href="home" class="nav-link text-dark">Home</a></li>
-                    <li class="nav-item px-3 dropdown">
-                        <a class="nav-link text-dark dropdown-toggle" href="#" id="navbarDropdownMenuLink"
-                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"></a>
-                        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                            <a href="#" class="dropdown-item">Plate</a>
-                            <a href="#" class="dropdown-item">Saucer</a>
-                            <a href="#" class="dropdown-item">Others</a>
-                        </div>
-                    </li>
-                    <li><a href="#" class="nav-link text-dark">Journal</a></li>
-                    <li class="nav-item px-3 dropdown">
-                        <a href="" class="nav-link text-dark dropdown-toggle" id="navbarDropdownMenuLink1"
-                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">More</a>
-                        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink1">
-                            <a href="#" class="dropdown-item">About us</a>
-                            <a href="#" class="dropdown-item">Contact</a>
-                        </div>
-                    </li>
+    <header class="entete">
+        <nav class="mynavbar">
+
+            <div class="tiagram">
+                <span>☰</span>
+            </div>
+            <div class="divlogo">
+                <img src="media/logo.png" alt="Image introuvable" class="logo">
+            </div>
+
+            <div class="menu-items">
+                <ul class="liste-menu">
+                    <li class="menu-item"><span>HOME</span></li>
+                    <li class="menu-item"><span>SHOP ▾</span></li>
+                    <li class="menu-item"><span>JOURNAL</span></li>
+                    <li class="menu-item"><span>MORE ▾</span></li>
                 </ul>
             </div>
-            <div class="order-3">
-                <ul class="navbar-nav">
-                    <li class="nav-item dropdown">
-                        <a href="#" class="nav-link text-dark dropdown-toggle" id="navbarDropdownMenuLink2"
-                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            <div class="nav-link-cart d-inline">
-                                <span id="shopCart">Mycart</span>
-                                <span>(2)</span>
+
+            <div class="mycart-button">
+                <div class="dropdown">
+                    <button class="menu-item-btn" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown"
+                        aria-expanded="false">
+                        MY CART (2) ▾
+                    </button>
+                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                        <li class="column-1-popup">
+                            <img src="media/hand-painted-blue-flat-dish.jpg" alt="objet 2" class="img-cart-popup">
+                            <div>
+                                <span class="name-cart-popup">Hand Painted Blue Flat Dish <span class="number-popup"> x 1</span></span><br>
+                                <span class="name-family-popup">Kiriko</span><br>
+                                <span class="number-popup"><strong>$28.00</strong></span> 
                             </div>
-                        </a>
-                        <div class="dropdown-menu dropdown-menu-right position-absolute dropdown-menu-cart"
-                            aria-labelledby="navbarDropdownMenuLink2">
-                            <div class="row mx-0 mb-5">
-                                <div class="col-3 p-0">
-                                    <img src="media/hand-painted-blue-flat-dish.jpg"
-                                        alt="Image of hand painted blue flat dish" title="Hand painted blue flat dish"
-                                        class="w-100">
-                                </div>
-                                <div class="col-8 pr-0">
-                                    <p class="article-title">Hand painted blue flat dish <span
-                                            class="article-quantities">x 1</span></p>
-                                    <p class="text">Kiriko</p>
-                                    <p class="text-dark">$28.00</p>
-                                </div>
-                                <div class="col-1 p-0 text-right"><i class="fas fa-times"></i></div>
+                        </li>
+                        <li class="column-1-popup">
+                            <img src="media/hand-painted-blue-flat-dish.jpg" alt="objet 2" class="img-cart-popup">
+                            <div>
+                                <span class="name-cart-popup">Mashiko Yaki Indigo Small Plate <span class="number-popup"> x 1</span> </span><br>
+                                <span class="name-family-popup">Kiriko</span><br>
+                                <span class="number-popup"><strong>$28.00</strong></span> 
                             </div>
-                            <div class="row mx-0 my-4">
-                                <div class="col-3 p-0">
-                                    <img src="media/mashiko-yaki-indigo-small-plate.jpg"
-                                        alt="Image of mashiko-yaki indigo small plate"
-                                        title="Mashiko yaki indigo small plate" class="w-100">
-                                </div>
-                                <div class="col-8 pr-0">
-                                    <p class="article-title">Mashiko yaki indigo small plate <span class="quantities">x
-                                            1</span></p>
-                                    <p class="text">Kiriko</p>
-                                    <p class="text-dark">$28.00</p>
-                                </div>
-                                <div class="col-1 p-0 text-right"><i class="fas fa-times"></i></div>
+                        </li>
+                        <li class="column-3-popup">
+                            <div class="column-final01-popup">
+                                <p>Total</p>
+                                <button class="btn-viewcart-popup">VIEW CART</button>
                             </div>
-                            <div class="row mx-0 my-4 border-top pt-1">
-                                <div class="col-10 pl-0">
-                                    <p class="font-weight-normal">Total</p>
-                                </div>
-                                <div class="col-2 pr-0">
-                                    <p class="font-weight-normal">$56.00</p>
-                                </div>
+                            <div class="column-final02-popup">
+                                <p>$56.00</p>
+                                <button class="btn-checkout-popup">CHECKOUT</button>
                             </div>
-                            <div class="row mx-0 mt-4">
-                                <div class="col p-0">
-                                    <button class="btn w-100 btn-cart"><a href="cart">View cart</a></button>
-                                </div>
-                                <div class="col pr-0">
-                                    <button class="btn w-100">Checkout</button>
-                                </div>
-                            </div>
-                        </div>
-                    </li>
-                </ul>
+                        </li>
+                    </ul>
+                </div>
             </div>
+            <div class="cadena">
+                <p>🔒</p>
+                <p><sup>(2)</sup></p>
+            </div>
+
         </nav>
+
     </header>
 
     <section class="s01">
