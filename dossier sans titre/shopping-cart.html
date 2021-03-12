@@ -12,62 +12,62 @@
 
 <body style="background:#F6F6F6">
 
-    <header class="entete">
-        <nav class="mynavbar">
+    <header class="header">
+        <nav class="header_navbar">
 
-            <div class="tiagram">
+            <div class="header_navbar__tiagram">
                 <span>☰</span>
             </div>
-            <div class="divlogo">
-                <img src="media/logo.png" alt="Image introuvable" class="logo">
+            <div class="header_navbar__logo">
+                <img class="header_navbar__logo___img" src="media/logo.png" alt="Image introuvable">
             </div>
 
-            <div class="menu-items">
-                <ul class="liste-menu">
-                    <li class="menu-item"><span>HOME</span></li>
-                    <li class="menu-item"><span>SHOP ▾</span></li>
-                    <li class="menu-item"><span>JOURNAL</span></li>
-                    <li class="menu-item"><span>MORE ▾</span></li>
+            <div class="header_navbar__menu">
+                <ul class="header_navbar__menu___ul">
+                    <li class="header_navbar__menu___ul____item"><span>HOME</span></li>
+                    <li class="header_navbar__menu___ul____item"><span>SHOP ▾</span></li>
+                    <li class="header_navbar__menu___ul____item"><span>JOURNAL</span></li>
+                    <li class="header_navbar__menu___ul____item"><span>MORE ▾</span></li>
                 </ul>
             </div>
 
-            <div class="mycart-button">
+            <div class="header_navbar__cart">
                 <div class="dropdown">
-                    <button class="menu-item-btn" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown"
+                    <button class="header_navbar__cart___btn" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown"
                         aria-expanded="false">
                         MY CART (2) ▾
                     </button>
                     <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
-                        <li class="column-1-popup">
-                            <img src="media/hand-painted-blue-flat-dish.jpg" alt="objet 2" class="img-cart-popup">
+                        <li class="header_navbar__cart___dropdownmenu____item">
+                            <img class="header_navbar__cart___dropdownmenu____item____img" src="media/hand-painted-blue-flat-dish.jpg" alt="objet 2">
                             <div>
-                                <span class="name-cart-popup">Hand Painted Blue Flat Dish <span class="number-popup"> x 1</span></span><br>
-                                <span class="name-family-popup">Kiriko</span><br>
-                                <span class="number-popup"><strong>$28.00</strong></span> 
+                                <span class="header_navbar__cart___dropdownmenu____item____.______name">Hand Painted Blue Flat Dish <span class="number-popup"> x 1</span></span><br>
+                                <span class="header_navbar__cart___dropdownmenu____item____.______family">Kiriko</span><br>
+                                <span class="header_navbar__cart___dropdownmenu____item____.______number"><strong>$28.00</strong></span> 
                             </div>
                         </li>
-                        <li class="column-1-popup">
-                            <img src="media/hand-painted-blue-flat-dish.jpg" alt="objet 2" class="img-cart-popup">
+                        <li class="header_navbar__cart___dropdownmenu____item">
+                            <img class="header_navbar__cart___dropdownmenu____item____img" src="media/hand-painted-blue-flat-dish.jpg" alt="objet 2">
                             <div>
-                                <span class="name-cart-popup">Mashiko Yaki Indigo Small Plate <span class="number-popup"> x 1</span> </span><br>
-                                <span class="name-family-popup">Kiriko</span><br>
-                                <span class="number-popup"><strong>$28.00</strong></span> 
+                                <span class="header_navbar__cart___dropdownmenu____item____.______name">Mashiko Yaki Indigo Small Plate <span class="number-popup"> x 1</span> </span><br>
+                                <span class="header_navbar__cart___dropdownmenu____item____.______family">Kiriko</span><br>
+                                <span class="header_navbar__cart___dropdownmenu____item____.______number"><strong>$28.00</strong></span> 
                             </div>
                         </li>
-                        <li class="column-3-popup">
-                            <div class="column-final01-popup">
+                        <li class="header_navbar__cart___dropdownmenu____item">
+                            <div class="header_navbar__cart___dropdownmenu____item_____column01">
                                 <p>Total</p>
-                                <button class="btn-viewcart-popup">VIEW CART</button>
+                                <button class="header_navbar__cart___dropdownmenu____item_____column01______viewcart">VIEW CART</button>
                             </div>
-                            <div class="column-final02-popup">
+                            <div class="header_navbar__cart___dropdownmenu____item_____column02">
                                 <p>$56.00</p>
-                                <button class="btn-checkout-popup">CHECKOUT</button>
+                                <button class="header_navbar__cart___dropdownmenu____item_____column01______checkout">CHECKOUT</button>
                             </div>
                         </li>
                     </ul>
                 </div>
             </div>
-            <div class="cadena">
+            <div class="header_navbar__padlock">
                 <p>🔒</p>
                 <p><sup>(2)</sup></p>
             </div>
@@ -76,109 +76,109 @@
 
     </header>
 
-    <section style="text-align: center; margin: 3% 0 3% 0;">
+    <section class="title-cart">
         <h1>Shopping Cart</h1>
     </section>
 
-    <section class="block-cart">
-        <div class="lines-cart-01 C4C4C4">
-            <div class="column-1">
+    <section class="details-cart">
+        <div class="details-cart_storage">
+            <div class="details-cart_storage__product">
                 <p>Product</p>
             </div>
-            <div class="details-article-cart">
-                <div class="column-2-3-4">
+            <div class="details-cart_storage__quanty">
+                <div class="details-cart_storage__quanty___column">
                     <p>Quantity</p>
                 </div>
-                <div class="column-2-3-4">
+                <div class="details-cart_storage__quanty___column">
                     <p>Total</p>
                 </div>
-                <div class="column-2-3-4">
+                <div class="details-cart_storage__quanty___column">
                     <p>Action</p>
                 </div>
             </div>
 
         </div>
-        <div class="lines-cart">
-            <div class="column-1">
-                <img src="media/hand-painted-blue-flat-dish.jpg" alt="objet 2" class="img-cart">
+        <div class="details-cart_summary">
+            <div class="details-cart_summary__article">
+                <img class="details-cart_summary__article___img" src="media/hand-painted-blue-flat-dish.jpg" alt="objet 2">
                 <div>
                     <span class="C4C4C4">Kiriko</span>
-                    <p class="name-cart">Hand Painted Blue Flat Dish</p>
+                    <p class="details-cart_summary__article____name">Hand Painted Blue Flat Dish</p>
                     <p><span class="C4C4C4">COLOR:</span> WHITE</p>
                 </div>
             </div>
-            <div class="details-article-cart">
-                <div class="column-2-3-4">
-                    <div class="number-article-cart">
-                        <div class="number">
+            <div class="details-cart_summary__infos">
+                <div class="details-cart_summary__infos___column">
+                    <div class="details-cart_summary__infos___column____quantity">
+                        <div class="details-cart_summary__infos___column____quantity_____number">
                             <span>1</span>
                         </div>
-                        <div class="btn">
-                            <button class="btns">+</button>
-                            <button class="btns">-</button>
+                        <div class="details-cart_summary__infos___column____quantity_____btns">
+                            <button class="details-cart_summary__infos___column____quantity_____btns______btn">+</button>
+                            <button class="details-cart_summary__infos___column____quantity_____btns______btn">-</button>
                         </div>
                     </div>
                 </div>
-                <div class="column-2-3-4 c-2-3">
+                <div class="details-cart_summary__infos___column">
                     <p class="C4C4C4">$28.00</p>
                 </div>
-                <div class="column-2-3-4 c-2-3">
+                <div class="details-cart_summary__infos___column">
                     <p><i class="fas fa-times"></i></p>
                 </div>
             </div>
 
         </div>
-        <div class="lines-cart">
-            <div class="column-1">
-                <img src="media/mashiko-yaki-indigo-small-plate.jpg" alt="objet 2" class="img-cart">
+        <div class="details-cart_summary">
+            <div class="details-cart_summary__article">
+                <img class="details-cart_summary__article___img" src="media/mashiko-yaki-indigo-small-plate.jpg" alt="objet 2">
                 <div>
                     <span class="C4C4C4">Kiriko</span>
-                    <p class="name-cart">mashiko-yaki-indigo-small-plate</p>
+                    <p class="details-cart_summary__article____name">mashiko-yaki-indigo-small-plate</p>
                 </div>
             </div>
-            <div class="details-article-cart">
-                <div class="column-2-3-4">
-                    <div class="number-article-cart">
-                        <div class="number">
+            <div class="details-cart_summary__infos">
+                <div class="details-cart_summary__infos___column">
+                    <div class="details-cart_summary__infos___column____quantity">
+                        <div class="details-cart_summary__infos___column____quantity_____number">
                             <span>1</span>
                         </div>
-                        <div class="btn">
-                            <button class="btns">+</button>
-                            <button class="btns">-</button>
+                        <div class="details-cart_summary__infos___column____quantity_____btns">
+                            <button class="details-cart_summary__infos___column____quantity_____btns______btn">+</button>
+                            <button class="details-cart_summary__infos___column____quantity_____btns______btn">-</button>
                         </div>
                     </div>
                 </div>
-                <div class="column-2-3-4 c-2-3">
+                <div class="details-cart_summary__infos___column">
                     <p class="C4C4C4">$28.00</p>
                 </div>
-                <div class="column-2-3-4 c-2-3">
+                <div class="details-cart_summary__infos___column">
                     <p><i class="fas fa-times"></i></p>
                 </div>
             </div>
 
         </div>
-        <div class="lines-cart-03">
-            <div class="line-03">
-                <div class="line-03-00">
-                    <div class="line-03-column-01 C4C4C4">Cart Overview</div>
-                    <div class="line-03-column-02 C4C4C4"></div>
+        <div class="details-cart_totality">
+            <div class="details-cart_totality__">
+                <div class="details-cart_totality__overview">
+                    <div class="details-cart_totality__overview___column01">Cart Overview</div>
+                    <div class="details-cart_totality__overview___column02"></div>
                 </div>
-                <div class="line-03-00">
-                    <div class="line-03-column-01 C4C4C4">Subtotal</div>
-                    <div class="line-03-column-02 C4C4C4">$56.00</div>
+                <div class="details-cart_totality__subtotal">
+                    <div class="details-cart_totality__subtotal___column01">Subtotal</div>
+                    <div class="details-cart_totality__subtotal___column02">$56.00</div>
                 </div>
-                <div class="line-03-00">
-                    <div class="line-03-column-01 C4C4C4">Total</div>
-                    <div class="line-03-column-02">$56.00 CAD</div>
+                <div class="details-cart_totality__total">
+                    <div class="details-cart_totality__total___column01">Total</div>
+                    <div class="details-cart_totality__total___column02">$56.00 CAD</div>
                 </div>
             </div>
         </div>
-        <div class="lines-cart">
-            <div class="continue-shopping">
+        <div class="details-cart_finality">
+            <div class="details-cart_finality__returnshopping">
                 <a class="text-dark text-uppercase" href="home">Continue shopping</a>
             </div>
-            <div class="checkout" >
-                <button class="btn-checkout"> Checkout ($56.00)</button>
+            <div class="details-cart_finality__checkout" >
+                <button class="details-cart_finality__checkout___btn"> Checkout ($56.00)</button>
             </div>
         </div>
 
